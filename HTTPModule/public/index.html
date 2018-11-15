@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <title>StoicLane</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    
+</head>
+    <body onload="startUp();">
+        <div id="topPage">
+<!--
+            <header>StoicLane</header>
+            <p>Expanding imagination</p>
+-->
+        </div>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+        <h3>Inspirations:</h3>
+        <ol>
+            <li>J.Cole</li>
+            <img src="jcole322_640x355.jpg"/>
+            <ul>
+                <h4>Favourite Songs &amp; Lyrics:</h4>
+                <li>3Wishes</li>
+                <li>Stay</li>
+                <li>Crunch Time</li>
+                <li>Is She Gon Pop</li>
+                <p title="jcolePara">"Nah nigga, the game is to get, a bunch of paper just to change your fucking neighbors and shit I swear if niggas put half of what they put in chasing ass into a craft, by now you'd be famous and rich".</p>
+            </ul>
+            <li>Andre3000</li>
+            <img src="andre3000pictures.jpg"/>
+            <ul>
+                <li>Elevators</li>
+                <li>Hello</li>
+                <li>ATaliens</li>
+                <li>Vibrate</li>
+                <p>"Play with your own score sheet, become the master of your own bationAnd yes, God is watching you, but no need to be embarrassedFor the future is in your hands, no the future is in your hand Play with your own score sheet".</p>
+            </ul>
+            <li>Sade</li>
+            <img src="Sade%201.jpg"/>
+            <ul>
+                <li>Lovers Rock</li>
+                <li>War of Hearts</li>
+                <li>Pears</li>
+                <li>Cherish The Day</li>
+                <p>"Who's calling the shots One of us must make the peace To have or to have not The fire has got to cease"</p>
+            </ul>
+        </ol>
+        <script defer="defer">
+        function startUp(){
+            var name = prompt("Enter your name: ");
+            alert("Welcome "+name);
+        }
+        var element = document.getElementById("topPage");
+        var header = document.createElement("header");
+        var p = document.createElement("p");
+        var pTxt = document.createTextNode("Expanding Imagination");
+        p.appendChild(pTxt);
+        element.appendChild(p);
+        var hTxt = document.createTextNode("StoticLane");
+            header.appendChild(hTxt);
+            element.appendChild(header);
+        
+    </script>
+    </body>
+</html>
